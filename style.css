@@ -1,0 +1,571 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.br-phone {
+  display: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/******************************
+Header
+*******************************/
+
+header {
+  background: #ec715f;
+}
+
+nav {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  height: 70px;
+  width: auto;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list-item {
+  color: #fafafa;
+  font-size: 16px;
+  margin: 0 30px;
+  line-height: 70px;
+  list-style: none;
+  float: left;
+}
+
+/***************************
+Main
+****************************/
+
+/***************
+Main-view
+****************/
+
+#main-view {
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+}
+
+.main-view-tittle {
+  text-align: center;
+  padding: 200px 0 10px 0;
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-view-text {
+  text-align: center;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+/*********
+Portfolio
+**********/
+
+.portfolio-bg {
+  background-color: #eceff1;
+}
+
+#portfolio {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.portfolio-tittle {
+  padding-top: 90px;
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  position: relative;
+}
+
+.portfolio-tittle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ec715f;
+}
+
+.portfolio-text {
+  margin-top: 38px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.portfolio-img {
+  width: 920px;
+  height: 600px;
+}
+
+.portfolio-box {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+.portfolio-box:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin: 0 10px 10px 0;
+}
+.portfolio-box:nth-child(2){
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 0;
+}
+.portfolio-box:nth-child(3){
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+.portfolio-box:nth-child(4){
+  background-image: url(img/webcamp.png);
+  margin-right: 10px;
+}
+.portfolio-box:nth-child(5){
+  background-image: url(img/talk.jpg);
+  margin-right: 10px;
+}
+.portfolio-box:nth-child(6){
+  background-image: url(img/webcamp-mother.png);
+}
+
+/**********
+Feature
+***********/
+
+#feature {
+  width: 980px;
+  margin: 90px auto;
+  text-align: center;
+}
+
+.feature-top-tittle {
+  font-size: 32px;
+  position: relative;
+}
+
+.feature-top-tittle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ec715f;
+}
+
+.feature-top-text {
+  margin-top: 38px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.feature-box {
+  width: 320px;
+  float: left;
+}
+
+.feature-box:nth-child(2) {
+  margin: 0 10px;
+}
+
+.feature-box i {
+  font-size: 60px;
+}
+
+.feature-box-tittle {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.feature-box-text {
+  font-size: 16px;
+  text-align: left;
+}
+
+/**********
+Profile
+***********/
+
+.profile-bg {
+  background: #eceff1;
+}
+
+#profile {
+  width: 1024px;
+  padding: 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-tittle {
+  font-size: 32px;
+  position: relative;
+}
+
+.profile-tittle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ec715f;
+}
+
+.profile-text {
+  margin-top: 38px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.my-icon {
+  width: 512px;
+  float: left;
+}
+
+.my-icon img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-content-box {
+  text-align: left;
+  width: 512px;
+  float: left;
+}
+
+.profile-content-box-tittle {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-content-box-tittle2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.profile-content-box-text {
+  font-size: 16px;
+}
+
+/***********
+Contact
+************/
+
+#contact {
+  width: 800px;
+  margin: 90px auto;
+  text-align: center;
+}
+
+.contact-tittle {
+  font-size: 32px;
+  position: relative;
+}
+
+.contact-tittle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ec715f;
+}
+
+.contact-text {
+  margin-top: 38px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.contact-box {
+  width: 400px;
+  float: left;
+  text-align: start;
+}
+
+.left-box {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-content-tittle {
+  font-size: 20px;
+  margin-bottom: 5px;;
+}
+
+.contact-content-tittle2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-content-text {
+  color: black;
+  text-decoration: black underline solid;
+  margin: 0 auto;
+}
+
+.right-box {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.contact-box i {
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.contact-box i:nth-child(3) {
+  margin: 0 20px;
+}
+
+/***********************************
+Footer
+************************************/
+
+footer {
+  background: #ec715f;
+  height: 60px;
+
+}
+
+footer p {
+  color: #fafafa;
+  font-size: 16px;
+  text-align: center;
+  line-height: 60px;
+}
+
+
+
+/***************************
+responsive
+****************************/
+
+@media screen and (max-width:767px) {
+  body {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  /******************
+  Header
+  *******************/
+
+  header, nav {
+    width: 100%;
+    height: 50px;
+  }
+
+  header, .nav, .nav-logo {
+    height: 50px;
+  }
+
+  .nav-logo {
+    position: relative;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  /*アイコンのスペース*/
+  .nav-open {
+  border: 1px solid #fafafa;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  position: relative;
+  top: -20px;
+  left: 70%;
+  }
+
+  /* ハンバーガーアイコンをCSSだけで表現*/
+  .nav-open span, .nav-open span:before, .nav-open span:after {
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background: #fafafa;
+    display: block;
+    content: '';
+  }
+  .nav-open span {
+    top: 10px;
+    margin-left: 7px;
+  }
+  .nav-open span:before {
+    bottom: -8px;
+  }
+  .nav-open span:after {
+    bottom: -16px;
+  }
+
+  /*************************
+  Main
+  **************************/
+  /**************
+  main-view
+  ***************/
+
+  #main-view {
+    background-image: url(img/code.png);
+  }
+
+  .main-view-tittle {
+    font-size: 40px;
+  }
+
+  .main-view-text {
+    font-size: 18px;
+  }
+
+  /**************
+  Portfolio
+  ***************/
+
+  .portfolio-bg {
+    height: 1200px;
+  }
+
+  #portfolio {
+    width: 90%;
+  }
+
+  .br-phone {
+    display: inline;
+  }
+
+  .br-pc {
+    display: none;
+  }
+
+  .portfolio-img {
+    width: 100%;
+  }
+
+  .portfolio-box:nth-child(odd) {
+    display: none;
+  }
+
+  .portfolio-box:nth-child(2) {
+    float: none;
+    margin: 0 auto;
+  }
+  
+  .portfolio-box:nth-child(4) {
+    margin: 10px auto;
+    float: none;
+  }
+
+  .portfolio-box:nth-child(6) {
+    margin: 10px auto;
+    float: none;
+  }
+
+  /************
+  feature
+  *************/
+
+  #feature {
+    width: 90%;
+  }
+
+  .feature-strength {
+    margin: 0 auto;
+  }
+
+  .feature-box {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .feature-box:nth-child(2) {
+    margin: 0 10px;
+  }
+
+  /************
+  Profile
+  *************/
+
+  .profile-bg {
+    width: 90%;
+    height: 920px;
+  }
+
+  #profile {
+    width: 100%;
+  }
+
+  .my-icon {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .profile-content-box {
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .profile-content-box-tittle {
+    margin-bottom: 5px;
+  }
+
+  /***********
+  Contact
+  *************/
+
+  #contact {
+    width: 90%;
+  }
+
+  .contact-box {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
