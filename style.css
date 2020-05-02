@@ -385,11 +385,6 @@ responsive
 ****************************/
 
 @media screen and (max-width:767px) {
-  body {
-    width: 90%;
-    margin: 0 5%;
-  }
-
   /******************
   Header
   *******************/
@@ -405,6 +400,7 @@ responsive
 
   .nav-logo {
     position: relative;
+    left: 5%;
   }
 
   .nav-list {
@@ -451,11 +447,15 @@ responsive
   ***************/
 
   #main-view {
+    width: 100%;
     background-image: url(img/code.png);
   }
 
   .main-view-tittle {
+    width: 90%;
     font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .main-view-text {
@@ -467,6 +467,7 @@ responsive
   ***************/
 
   .portfolio-bg {
+    width: 100%;
     height: 1200px;
   }
 
@@ -510,16 +511,19 @@ responsive
   *************/
 
   #feature {
-    width: 90%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .feature-strength {
+    width: 90%;
     margin: 0 auto;
   }
 
   .feature-box {
     float: none;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -532,7 +536,7 @@ responsive
   *************/
 
   .profile-bg {
-    width: 90%;
+    width: 100%;
     height: 920px;
   }
 
@@ -542,7 +546,9 @@ responsive
 
   .my-icon {
     display: block;
+    margin: 0 auto;
     margin-bottom: 20px;
+    float: none;
   }
 
   .profile-content-box {
